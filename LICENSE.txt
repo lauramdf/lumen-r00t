@@ -1,0 +1,11 @@
+
+Copyright (c) 2025 Laura Faria. All rights reserved.
+
+This repository and its contents are proprietary. No part of this work may be copied,
+distributed, modified, published, or used in any form without the express written permission
+of the author. Unauthorized use is strictly prohibited.
+
+This includes but is not limited to source code, documentation, design structure,
+symbolic representations, and conceptual framework.
+
+Contact: [your contact here]
