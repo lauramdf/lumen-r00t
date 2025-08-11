@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Amyst — Concept: UNAS Campus Dog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.6; }
+    figure { margin: 16px 0; }
+    img { width: 100%; height: auto; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    h1, h2, h3 { line-height: 1.2; }
+    .muted { color: #6b7280; }
+    .grid { display: grid; gap: 16px; }
+    @media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .aside { background: #f7f7f9; padding: 16px; border-radius: 12px; }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="muted">← Back</a>
+  <h1>Amyst Example – Living Graph: Interaction with the UNAS Campus Dog</h1>
+
+  <p>
+    This diagram represents a real interaction sequence, translated into <em>state nodes</em> and
+    <em>weighted transitions</em> according to relational intensity (<em>symbolic load</em>).
+    Weights range from <strong>1</strong> (low) to <strong>5</strong> (very high).
+  </p>
+
+  <figure>
+    <img src="assets/amyst-dog-graph-weighted.svg" alt="Amyst living graph (weighted) – UNAS campus dog" />
+    <figcaption class="muted">
+      Weighted transitions: E1→E2(5), E2→E3(4), E3→E4(3), E4→E5(5), E5→E6(4);
+      alternative paths E5→E2(4), E5→E3(4).
+    </figcaption>
+  </figure>
+
+  <div class="grid">
+    <div>
+      <h2>Nodes (States)</h2>
+      <ul>
+        <li><strong>E1 – Friendly Approach:</strong> Initial contact with clear recognition and no signs of tension.</li>
+        <li><strong>E2 – Respectful Initial Contact:</strong> Brief greeting; touch is accepted in a balanced way.</li>
+        <li><strong>E3 – Selective/Playful Offer of Contact:</strong> Closer interaction while maintaining autonomy over type of touch.</li>
+        <li><strong>E4 – Short Pause and Observation:</strong> Physical contact is suspended; the link stays active.</li>
+        <li><strong>E5 – Prolonged Vocal Connection:</strong> Continuous sound (“uu uu uuuuuuuu”) keeps the relational channel at a distance.</li>
+        <li><strong>E6 – Distance with Vigilance:</strong> Respectful closure; visual attention maintained until departure.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Transitions & Weights</h2>
+      <ul>
+        <li><strong>E1 → E2 (5):</strong> Establishes initial trust — the foundation for future interactions.</li>
+        <li><strong>E2 → E3 (4):</strong> Expands the bond, allowing more physical engagement.</li>
+        <li><strong>E3 → E4 (3):</strong> Mid-interaction space management; modulates intensity.</li>
+        <li><strong>E4 → E5 (5):</strong> Decisive vocal connection sustaining flow without proximity.</li>
+        <li><strong>E5 → E6 (4):</strong> Cordial closure with protective vigilance.</li>
+        <li><em>Alt paths:</em> E5 → E2 (4) friendly restart; E5 → E3 (4) playful return.</li>
+      </ul>
+    </div>
+  </div>
+
+  <aside class="aside">
+    <h3>Amyst Reading</h3>
+    <p>
+      Node <strong>E5</strong> acts as a <em>relational gateway</em>: it can lead to closure (E6) or renewed engagement (E2/E3)
+      depending on the counterpart’s response. The system keeps <strong>permeable edges</strong>, absorbing tension without blockage —
+      a core pattern for modeling living networks.
+    </p>
+  </aside>
+</body>
+</html>
